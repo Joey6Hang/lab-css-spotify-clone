@@ -1,8 +1,130 @@
-/*
-Colors:
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+* {
+    Text: #1A1A1A
+}
 
-*/
+
+.navg {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+}
+.imglog,
+.imglog img {
+  height: auto;
+  width: 150px;
+  margin-right: auto;
+  padding-left: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 15px;
+  padding: 0 50px 15px 0px;
+}
+
+li a {
+  display: block;
+  padding: 15px 10px;
+  color: black;
+  text-decoration: none;
+  padding-right: 10px;  
+}
+
+#lis {
+  width: auto;
+  height: 40px;
+  display: flex;
+  border-right: 0px solid black;
+}
+
+.bgp {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-position: center top;
+  height: 750px;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  color: blanchedalmond;
+  text-align: center;
+  width: 3000px;
+  font-size: 30px;
+  padding: 0 300px;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  line-height: 2em;
+}
+
+.bigbox {
+  display: flex;
+  float: left;
+  text-align: center;
+  height: 180px;
+  margin: 50px 104px;
+}
+
+#music {
+  width: 70px;
+  height: 60px;
+  padding: 10px 20px;
+}
+
+#high {
+  width: 70px;
+  height: 60px;
+  padding: 10px 20px;
+}
+
+#landing {
+  width: 70px;
+  height: 60px;
+  padding: 10px 20px;
+}
+
+#box1 {
+  width: 195px;
+  height: 200px;
+  padding: 0 50px;
+  margin: 0 30px;
+  /* background-color: pink; */
+}
+#box2 {
+  width: 195px;
+  height: 200px;
+  padding: 0 50px;
+  margin: 0 30px;
+  /* background-color: pink; */
+}
+#box3 {
+  width: 195px;
+  height: 200px;
+  padding: 0 50px;
+  margin: 0 30px;
+  /* background-color: pink; */
+}
+h3 {
+  color: #00B172;
+}
+.bigbox p {
+  padding: 0 100px px;
+}
+
+/* .foot {
+    background-color: green;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 500px;
+} */
+
